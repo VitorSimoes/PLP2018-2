@@ -27,6 +27,7 @@ void permuta(int* vet, int *aux,int cont, int n){
         for(int e=0;e<n;e++){
             printf("%d ",aux[e]);
         }
+        printf("\n");
     }
 
     else{

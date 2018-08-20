@@ -21,12 +21,13 @@ int main(void){
 }
 
 void permuta(int* vet, int *aux,int cont, int n){
-    
+
 
     if(cont == n){
         for(int e=0;e<n;e++){
             printf("%d ",aux[e]);
         }
+        printf("\n");
     }
 
     else{
@@ -38,7 +39,7 @@ void permuta(int* vet, int *aux,int cont, int n){
             }
             if(flag == 0){
                 aux[cont]=vet[i];
-                permuta(vet, aux,cont+1,n);                
+                permuta(vet, aux,cont+1,n);
             }
         }
     }

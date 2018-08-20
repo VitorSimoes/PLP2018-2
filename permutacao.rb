@@ -6,7 +6,6 @@ vetor = []
 while i < n do
   vetor << i + 1
   i += 1
-  
 end
 
 def permutar(vetor)
@@ -18,10 +17,9 @@ def permutar(vetor)
       perm << ([aux] + aux2)
     }
   }
-  
+
   perm
-  
+
 end
 
 print permutar(vetor)
-

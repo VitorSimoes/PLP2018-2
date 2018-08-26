@@ -16,6 +16,7 @@ def desarranja(vetor,vetor_aux,cont):
                 vetor_aux[i]= vetor[cont]
                 desarranja(vetor,vetor_aux,cont+1)
                 vetor_aux[i] = 0
+
 for i in range(n):
     lista.append(i+1)
     lista_aux.append(0)

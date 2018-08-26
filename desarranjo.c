@@ -40,7 +40,7 @@ void arranja(int* vet, int *aux,int cont, int n){
               flag = 1;
             }
             if(flag == 0){
-                aux[cont]=vet[i];
+                aux[i]=vet[cont];
                 arranja(vet, aux,cont+1,n);
                 aux[i]=0;
             }
